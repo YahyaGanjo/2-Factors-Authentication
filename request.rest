@@ -1,0 +1,15 @@
+GET http://localhost:5000/api
+
+###
+
+POST http://localhost:5000/api/register
+
+###
+
+POST http://localhost:5000/api/verify
+Content-Type: : application/json
+
+{
+    "userId": "b129fcfe-a4f5-4b8a-80e6-2ffe27cc77d1",
+    "token": "835648"
+}
